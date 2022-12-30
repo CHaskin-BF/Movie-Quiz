@@ -26,26 +26,96 @@ var quizQuestions = [{
     choiceD: "Ian McKellen",
     correctAnswer: "d" },
 {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "" },
+    question: "How many comedy movies did Adam Sandler either act in or produce between the years 2000 and 2010?",
+    choiceA: "38",
+    choiceB: "34",
+    choiceC: "30",
+    choiceD: "26",
+    correctAnswer: "b" },
     {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "" },
+    question: "How many actors have portrayed James Bond in film?",
+    choiceA: "6",
+    choiceB: "7",
+    choiceC: "9",
+    choiceD: "10",
+    correctAnswer: "b" },
     {
-    question: "",
-    choiceA: "",
-    choiceB: "",
-    choiceC: "",
-    choiceD: "",
-    correctAnswer: "" },
+    question: "What National Monument does Cary Grant climb in the heart-pounding final moments of 'North by Northwest'",
+    choiceA: "Statue of Liberty",
+    choiceB: "Grand Canyon",
+    choiceC: "Mount Rushmore",
+    choiceD: "Mount St. Helens",
+    correctAnswer: "c" },
+    {
+    question: "Three of Jim Carrey's biggest blockbusters - 'The Mask', 'Dumb and Dumber', and 'Ace Ventura: Pet Detective' - were all released in what year?",
+    choiceA: "1991",
+    choiceB: "1993",
+    choiceC: "1994",
+    choiceD: "1996",
+    correctAnswer: "c" },
+    {
+    question: "What Martin Scorsese movie holds the all-time record for F-bombs?",
+    choiceA: "Goodfellas",
+    choiceB: "Casino",
+    choiceC: "The Departed",
+    choiceD: "The Wolf of Wall Street",
+    correctAnswer: "d" },
+    {
+    question: "Which movie star is killed off in the opening scene of Scream?",
+    choiceA: "Drew Barrymore",
+    choiceB: "Reese Witherspoon",
+    choiceC: "Anna Farris",
+    choiceD: "Carmen Electra",
+    correctAnswer: "a" },
+    {
+    question: "In the 1997 Film 'Boogie Nights', Filmmaker Jack Horner is played by what actor?",
+    choiceA: "Harrison Ford",
+    choiceB: "Burt Reynolds",
+    choiceC: "Marlon Brando",
+    choiceD: "Al Pacino",
+    correctAnswer: "b" },
+    {
+    question: "In 1980's 'The Blues Brothers', Jake orders ____ fried chickens and a coke.",
+    choiceA: "3",
+    choiceB: "4",
+    choiceC: "5",
+    choiceD: "6",
+    correctAnswer: "b" },
+    {
+    question: "In 'Toy Story 3', we see a grown up version of Sid.  What is his occupation?",
+    choiceA: "Gas Station Clerk",
+    choiceB: "Mailman",
+    choiceC: "Dishwasher",
+    choiceD: "Garbageman",
+    correctAnswer: "d" },
+    {
+    question: "Upon coming back from the First World War, Indiana Jones was an understudy to Abner Ravenwood. Which university was he studying in?",
+    choiceA: "Princeton University",
+    choiceB: "Harvard University",
+    choiceC: "University of Chicago",
+    choiceD: "University of Cairo",
+    correctAnswer: "c" },
+    {
+    question: "In 'Back to the Future', what year does Marty McFly travel back in time to?",
+    choiceA: "1945",
+    choiceB: "1950",
+    choiceC: "1955",
+    choiceD: "1960",
+    correctAnswer: "c" },
+    {
+    question: "In 'E.T.: The Extra-Terrestrial' what candy does Elliott use to lure E.T.?",
+    choiceA: "Reese's Pieces",
+    choiceB: "M&M",
+    choiceC: "Hershey's Kiss",
+    choiceD: "Twix",
+    correctAnswer: "a" },
+    {
+    question: "How many Oscar wins did the movie 'The Shawshank Redemption' get?",
+    choiceA: "7",
+    choiceB: "5",
+    choiceC: "3",
+    choiceD: "0",
+    correctAnswer: "d" },
 ]
 
 // Additional Variables
@@ -138,7 +208,7 @@ function generateHighscores() {
 }
 
 // Show High Score Function
-function showHighscore() {
+function showHighScore() {
     startQuizDiv.style.display = "none";
     gameoverDiv.style.display = "none";
     highscoreContainer.style.display = "flex";
